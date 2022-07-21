@@ -1,0 +1,99 @@
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  font-family:'Roboto'; 
+  
+
+  
+}
+
+  /* h1{
+
+  color: azure;
+  font-family:'Roboto';
+   margin: top 5px;
+   margin-left: 1900px;
+    
+      } */
+
+/* Navigation links */
+.navbar a {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #021a41;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button  this is the text on the bar */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: rgb(55, 35, 139);
+}
+
+
+
+/* Style the subnav links */
+/* .subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+} */
+
+/* Add a grey background color on hover */
+/* .subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+} */
+
+/* When you move the mouse over the subnav container, open the subnav content */
+/* .subnav:hover .subnav-content {
+  display: block;
+} */
+body{
+    background-color: #021a41;
+
+
+}
+/* p{
+  color: azure;
+  font-family:'Roboto';
+  font-size: 30px;
+} */
+
+#Logo{
+  position: relative;
+  top: -3px;
+  left:0%;
+  
+
+
+}
+.main{
+  position: relative;
+  text-align: center;
+  color: azure;
+  font-family:'Roboto';
+  font-size: 30px;
+}
